@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: 'Oswald', sans-serif;
+  background: #f9f9f9;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem;
+}
+
+.main-header {
+  /* height: 55vh; */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.main-header h1 span {
+  color: #b50d10;
+}
+
+.main-header p {
+  font-size: 2rem;
+}
+
+main section img {
+  width: 100%;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background: #f1f1f1;
+  margin-bottom: 2rem;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card > div {
+  padding: 2rem;
+}
+
+.card:nth-child(even) img {
+  order: 2;
+}
+
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.8rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+@media(max-width:600px) {
+  .card {
+    display: block;
+  }
+}
+
+.speaker{
+    
+}
+
+
+.schedule-item:hover{
+    background-color: greenyellow;
+}
+
+
+.navbar{
+  background-color: #1C2331;
+}
+
+
+/* @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+} */
+/* .view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}} */
+
+
+.nav-link {	
+    font-size: 0.8em;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .carousel-content {
+    position: absolute;
+    display: inline-block;
+    /* bottom: 10%; */
+    left: 5%;
+    right: 5%;
+    top: 20%;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+
+
+  .carouselExampleCaptions
+  {
+    height: 100vh;
+  }
+  .carousel-item {
+    /* height: 100vh; */
+    /* // min-height: 300px; // you can also set the min/max height as final touch
+    // max-height: 1000px;  */
+}
