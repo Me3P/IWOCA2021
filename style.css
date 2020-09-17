@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-family: 'Oswald', sans-serif;
   background: #f9f9f9;
 }
@@ -33,7 +33,7 @@ a {
 }
 
 .main-header h1 {
-  font-size: 4rem;
+  font-size: 3  rem;
   margin-bottom: 2rem;
   line-height: 1.2;
 }
@@ -86,6 +86,13 @@ main section img {
 
 .btn:hover {
   opacity: 0.8;
+  
+}
+
+
+.nav-link:hover {
+  color: white;
+  
 }
 
 @media(max-width:600px) {
@@ -118,17 +125,17 @@ main section img {
 
 
 .nav-link {	
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 html {
     scroll-behavior: smooth;
   }
 
-  .carousel-content {
+  /* .carousel-content {
     position: absolute;
     display: inline-block;
-    /* bottom: 10%; */
+    bottom: 10%;
     left: 5%;
     right: 5%;
     top: 20%;
@@ -136,15 +143,78 @@ html {
     text-align: center;
     color: white;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
-  }
+  } */
 
 
-  .carouselExampleCaptions
+  /* .carouselExampleCaptions
   {
-    height: 100vh;
+    height:20vh;
+  } */
+
+ 
+  
+@media screen and (min-width: 1480px) {
+  #img1   {
+    
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+  right: 0;
+    
   }
-  .carousel-item {
-    /* height: 100vh; */
-    /* // min-height: 300px; // you can also set the min/max height as final touch
-    // max-height: 1000px;  */
 }
+
+@media screen and (min-width: 766px) {
+  #img1   {
+    
+    height: auto;
+    /* width: 100%; */
+    overflow: hidden;
+    bottom: 0;
+  right: 0;
+    
+  }
+}
+
+@media screen and (max-width: 765px) {
+  #img1  {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    top: 0;
+  right: 0;
+  }
+}
+
+.carousel-item{
+  width:100%;
+  height:250px;
+  overflow:hidden;
+}
+#img1 {
+  /* width:100%; */
+  /* height: 100%; */
+  position: absolute;
+  
+}
+.d-block w-100 {
+  width:100%;
+  height:550px;
+  object-fit:cover;
+  object-position:50% 50%;
+ }
+/* .carousel-inner > .carousel-item {
+  height: 100vh;
+}
+
+.carousel-inner > .carousel-item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 800px;
+  width: auto;
+} */
