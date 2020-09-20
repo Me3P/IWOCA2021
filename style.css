@@ -153,14 +153,15 @@ html {
 
  
   
-@media screen and (min-width: 1480px) {
+@media screen and (min-width: 920px) {
   #img1   {
     
     height: auto;
     width: 100%;
     overflow: hidden;
-    bottom: 0;
+    top: 0;
   right: 0;
+  /* bottom: 15%; */
     
   }
 }
@@ -171,7 +172,7 @@ html {
     height: auto;
     /* width: 100%; */
     overflow: hidden;
-    bottom: 0;
+    bottom: 100;
   right: 0;
     
   }
@@ -183,7 +184,7 @@ html {
     width: auto;
     overflow: hidden;
     top: 0;
-  right: 0;
+  left: 0;
   }
 }
 
