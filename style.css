@@ -229,3 +229,7 @@ html {
   /* margin-left: 50px; */
   margin: 2rem 3rem;
 }
+
+#wrapper{
+  max-width: 1250px;
+}
