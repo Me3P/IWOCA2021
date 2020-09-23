@@ -6,7 +6,8 @@
 
 body {
   font-size: 1.1rem;
-  font-family: 'Oswald', sans-serif;
+  
+font-family: 'Ubuntu', sans-serif;
   background: #f9f9f9;
 }
 
@@ -95,6 +96,10 @@ main section img {
   
 }
 
+.nav-item{
+  padding: 1px 10px;
+}
+
 @media(max-width:600px) {
   .card {
     display: block;
@@ -153,30 +158,30 @@ html {
 
  
   
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 940px) {
   #img1   {
     
     height: auto;
     width: 100%;
     overflow: hidden;
-    top: 0;
+    bottom: 0;
   right: 0;
   /* bottom: 15%; */
     
   }
 }
 
-@media screen and (min-width: 766px) {
+/* @media screen and (min-width: 766px) {
   #img1   {
     
-    height: auto;
+    height: auto; */
     /* width: 100%; */
-    overflow: hidden;
-    bottom: 100;
+    /* overflow: hidden;
+    bottom: 0;
   right: 0;
     
   }
-}
+} */
 
 @media screen and (max-width: 765px) {
   #img1  {
