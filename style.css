@@ -295,3 +295,13 @@ html {
 #wrapper{
   max-width: 1250px;
 }
+
+a{
+  color: brown;
+}
+a:hover{
+  color: brown;
+}
+ul{
+  list-style: inside;
+}
