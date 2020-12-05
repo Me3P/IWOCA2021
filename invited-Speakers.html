@@ -25,37 +25,53 @@
 
 
   <body>
-
+    <div class="content-wrapper">
   	<!-- Navbar -->
-    <nav class="navbar sticky-top  navbar-expand-lg navbar-dark scrolling-navbar" id="home">
-      <div class="container">
+    <nav class="navbar sticky-top  navbar-expand-xl navbar-dark scrolling-navbar" id="home">
+      <div class="container" style="max-width:1350px;">
     
-       
+      
     
         <!-- Collapse -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+          
         </button>
+
+        <div class="navbar-toggler" data-target="collapse" style="margin: auto;border: none;" >
+          <a class="" href="index.html" >
+            <img src="assets/img/gallery/LOGOc.png" class="" alt="..." loading="lazy" style=" height: 60px;" id="">
+          </a>
+        </div>
+          
+          
+        
     
         <!-- Links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
     
           <!-- Left -->
           <ul class="navbar-nav mr-auto" id="mynav">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="padding: 0px;">
+                <img src="assets/img/gallery/LOGOc.png" class="" alt="..." loading="lazy" style="height: 45px;" id="">
+              </a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="call-for-paper.html" class="active" >Call for papers</a>
+            <li class="nav-item" >
+              <a class="nav-link" href="call-for-paper.html" class="active"  >Call&nbsp;for&nbsp;papers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="committees.html" >Committees</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="invited-Speakers.html" >Invited Speakers</a>
+              <a class="nav-link" href="invited-Speakers.html" >Invited&nbsp;Speakers</a>
             </li>
             
             <li class="nav-item">
@@ -90,25 +106,24 @@
     <br>
 
     <div class="section-header" id="invited-Speakers">
-      <div class="jumbotron jumbotron-fluid text-center">
+      <div class="jumbotron jumbotron-fluid ">
         <div class="container">
-          <h1 class="display-4">To be Announced</h1>
-          <p class="lead"></p>
+          <h4 class="">There will be four invited talks at IWOCA 2021. The invited speakers are:</h4>
+          <br>
+          <ul>
+            <li><a href= 'https://web.math.princeton.edu/~mchudnov/'> Maria Chudnovsky</a>, Princeton University, USA</li>
+            <li><a href= 'https://cs.uwaterloo.ca/~alubiw/Site/Anna_Lubiw.html'> Anna Lubiw</a>, University of Waterloo, Canada</li>
+            <li><a href= 'https://www.weizmann.ac.il/math/peleg/'> David Peleg</a>, Weizmann Institute of Science, Israel</li>
+            <li><a href= 'http://did.mat.uni-bayreuth.de/~alfred/home/index.html'> Alfred Wassermann</a>, Universität Bayreuth, Germany</li>
+          </ul>
         </div>
       </div>
     </div>
     </br>
 
-<!-- invited speakers --> 
-<!-- <div class="section-header" id="Invited-Speakers">
-    <div class="jumbotron jumbotron-fluid text-center">
-      <div class="container">
-        <h1 class="display-4">To be Announced</h1>
-        <p class="lead"></p>
-      </div>
-    </div>
-  </div>
-  </br>
+    <!-- invited speakers --> 
+    <!-- <div class="section-header" id="Invited-Speakers">
+    
 
       <div class="container marketing">
 
@@ -116,24 +131,32 @@
         <div class="row">
           <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+            <h2>Maria Chudnovsky</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+            <h2>Anna Lubiw</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
+            <h2>David Peleg</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
 
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Alfred Wassermann</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
 
         
 
@@ -141,50 +164,30 @@
       </div> 
 
     </div> -->
+
     <br>
     <div class="container" id="wrapper">
       <hr>
-      <div class="row" style="padding: 2em;">
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" > </a>
+      <div class="row">
+          <div class="col-lg-4 col-md-4 col-6 col-xl-2 sponsor" >
+            <a href="http://www.fields.utoronto.ca/" class="center" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64;" sizes=""> </a>
           </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="https://www.uottawa.ca/" > <img src="assets/img/gallery/uottawa_ver_wg9.png" alt="" style="height: 64; width:84px;"> </a>
-          </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="https://www.springer.com/gp" > <img src="assets/img/gallery/LNCS-Logo.jpg" alt="" style="height: 128; width:200px;"> </a>
-          </div>
-          <!--
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
-          </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
-          </div>
-          <div class="col-sm-4 col-md-2 col-4" style="padding-bottom: 1em;">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
+          <div class="col-lg-4 col-md-4 col-6 col-xl-2 sponsor">
+            <a href="https://www.uottawa.ca/" > <img src="assets/img/gallery/uottawa_ver_wg9.png" alt="" style="height: 80px;  "> </a>
           </div>
           
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
+          
+          <div class="col-lg-4 col-md-4 col-6 col-xl-2 sponsor">
+            <a href="https://www.springer.com/journal/453" class="center"> <img src="assets/img/gallery/Algorithmica.jpg" alt="" style="margin:auto;height: 150px; "> </a>
           </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
+          
+          <div class="col-lg-4 col-md-4 col-6  col-xl-2 sponsor" >
+            <a href="https://www.springer.com/gp" > <img src="assets/img/gallery/LNCS-Logo.jpg" alt="" style="height: 64px;"> </a>
           </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
-          </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
-          </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
-          </div>
-          <div class="col-sm-4 col-md-2 col-4">
-            <a href="http://www.fields.utoronto.ca/" > <img src="assets/img/gallery/fieldslogo.png" alt="" style="height: 64; width:84px;"> </a>
-          </div> -->
         </div>
     </div>
+    </div>
+    <div class="push"></div>
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
       <div class="container">
   
