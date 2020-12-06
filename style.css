@@ -16,12 +16,12 @@ a {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   max-width: 1100px;
   margin: auto;
   overflow: auto;
   padding: 0 2rem;
-}
+} */
 
 .main-header {
   /* height: 55vh; */
@@ -332,7 +332,7 @@ html, body {
 
 @media screen and (max-width: 1200px) {
   #small_logo  {
-    display: visible;
+    display: flex;
   }
   #big_logo  {
     display: none;
@@ -347,4 +347,8 @@ html, body {
   #small_logo  {
     display: none;
   }
+}
+
+td{
+  padding-right: 1em;
 }
