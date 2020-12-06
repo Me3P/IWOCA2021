@@ -328,3 +328,23 @@ html, body {
 .push {
   height: 50px;
 }
+
+
+@media screen and (max-width: 1200px) {
+  #small_logo  {
+    display: visible;
+  }
+  #big_logo  {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  #big_logo  {
+    display: visible;
+  }
+  #small_logo  {
+    display: none;
+  }
+}
