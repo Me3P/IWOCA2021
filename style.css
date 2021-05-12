@@ -292,6 +292,14 @@ ul{
   list-style: inside;
 }
 
+ol{
+  list-style: inside;
+}
+
+ol > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 #home{
   font-size: medium;
 }
